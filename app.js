@@ -7,5 +7,6 @@ const numbersAndDates = require('./lib/numbers-and-dates')
 const strings = require('./lib/strings')
 const indexedCollections = require('./lib/indexed-collections')
 const keyedCollections = require('./lib/keyed-collections')
+const objects = require('./lib/objects')
 
-keyedCollections.keyedCollections()
+objects.objectsHierarcy()
