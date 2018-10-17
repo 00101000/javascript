@@ -5,5 +5,7 @@ const fucntions = require('./lib/functions')
 const expressionsAndOperators = require('./lib/expressions-and-operartors')
 const numbersAndDates = require('./lib/numbers-and-dates')
 const strings = require('./lib/strings')
+const indexedCollections = require('./lib/indexed-collections')
+const keyedCollections = require('./lib/keyed-collections')
 
-strings.stringObjectMethodsUsage()
+keyedCollections.keyedCollections()
