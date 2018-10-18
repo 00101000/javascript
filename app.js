@@ -1,4 +1,4 @@
-// @region language-features
+// #region language-features
 const grammarAndTypes = require('./language-features/grammar-and-types')
 const controlFlowErrorHandling = require('./language-features/control-flow-error-handling')
 const loops = require('./language-features/loops')
@@ -9,4 +9,10 @@ const strings = require('./language-features/strings')
 const indexedCollections = require('./language-features/indexed-collections')
 const keyedCollections = require('./language-features/keyed-collections')
 const objects = require('./language-features/objects')
-// @end-region language-features
+// #endregion
+
+// #region basic
+const basicDateTimeExercises = require('./exersises/basic/date-time')
+// #endregion
+
+basicDateTimeExercises.dateTimeExercises[0]()
