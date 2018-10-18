@@ -12,7 +12,7 @@ const objects = require('./language-features/objects')
 // #endregion
 
 // #region basic
-const basicDateTimeExercises = require('./exersises/basic/date-time')
+const dateTimeExercises = require('./exersises/date-time')
 // #endregion
 
-basicDateTimeExercises.dateTimeExercises[0]()
+dateTimeExercises.dateTimeExercises[2]()
