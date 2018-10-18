@@ -15,4 +15,4 @@ const objects = require('./language-features/objects')
 const dateTimeExercises = require('./exersises/date-time')
 // #endregion
 
-dateTimeExercises.dateTimeExercises[2]()
+dateTimeExercises.dateTimeExercises[3]()
