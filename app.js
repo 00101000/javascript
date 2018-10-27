@@ -11,8 +11,7 @@ const keyedCollections = require('./language-features/keyed-collections')
 const objects = require('./language-features/objects')
 // #endregion
 
-// #region basic
+// #region exercises
 const dateTimeExercises = require('./exersises/date-time')
+const arraysExercises = require('./exersises/array')
 // #endregion
-
-dateTimeExercises.dateTimeExercises[3]()
