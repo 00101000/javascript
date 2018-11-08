@@ -12,6 +12,10 @@ const objects = require('./language-features/objects')
 // #endregion
 
 // #region exercises
-const dateTimeExercises = require('./exersises/date-time')
-const arraysExercises = require('./exersises/array')
+const dateTimeEx = require('./exersises/date-time')
+const arraysEx = require('./exersises/array')
+const stringsEx = require('./exersises/strings-redgexp')
+const objectsEx = require('./exersises/objects')
+const promisesEx = require('./exersises/promises')
 // #endregion
+

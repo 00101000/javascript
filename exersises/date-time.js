@@ -1,8 +1,8 @@
 const utils = require('../utils/utils')
 
 module.exports = (() => {
-    let dateTimeExercises = []
-    dateTimeExercises[0] = () => {
+    const exercises = []
+    exercises[0] = () => {
         /*
         * Write a JavaScript program to display the current day and time in the following format.
         * Sample Output : Today is : Tuesday. 
@@ -17,7 +17,7 @@ module.exports = (() => {
         console.log(`Today is ${dayOfWek}. Current time is ${hours} : ${minutes} : ${seocnds}`)
     }
 
-    dateTimeExercises[1] = () => {
+    exercises[1] = () => {
         /*
         * Write a JavaScript program to get the current date.
         * Expected Output : 
@@ -33,7 +33,7 @@ module.exports = (() => {
         console.log(`${dd}/${mm}/${yyyy}`)
     }
 
-    dateTimeExercises[2] = () => {
+    exercises[2] = () => {
         /*
         * Write a JavaScript function to check whether an `input` is a date object or not.
         * Test Data :
@@ -59,7 +59,7 @@ module.exports = (() => {
         console.log(isDateObject([1, 2, 4, 0]))
     }
 
-    dateTimeExercises[3] = () => {
+    exercises[3] = () => {
         /*
         * Write a JavaScript function to get the number of days in a month. Go to the editor
         * 
@@ -91,7 +91,5 @@ module.exports = (() => {
         console.log(getDaysInMonth(9, 2012))
         console.log(getDaysInMonth(12, 2012))
     }
-    return {
-        dateTimeExercises
-    }
+    return exercises
 })()
