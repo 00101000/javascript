@@ -3,3 +3,4 @@ package-lock.json
 .nyc_output/*
 .vscode/*
 coverage/*
+exersises/zipper/node_modules/*
