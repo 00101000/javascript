@@ -14,6 +14,8 @@
   },
   "homepage": "https://github.com/00101000/javascript#readme",
   "dependencies": {
+    "dash": "^0.3.0",
+    "js-joda": "^1.9.3",
     "mocha": "^5.2.0"
   }
 }
